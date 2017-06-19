@@ -1,0 +1,45 @@
+*{font-family: 'Orbitron', sans-serif;
+}
+h1{
+    color: red;
+}
+
+.chosen{
+    color: yellow;
+    font-size: 27px;
+}
+
+div p{
+    color: red;
+}
+
+div > p{
+    color:green;
+    
+}
+
+.red {
+    color: red;
+}
+
+.big {
+    font-size: larger;
+}
+
+div ~ p {
+    color: green;
+}
+
+p:hover {
+    color: yellow;
+}
+
+p::before {
+    content: "<";
+    color: brown;
+}
+
+p::after {
+    content: ">";
+    color: rgba(216, 123, 8, 0.2);
+}
